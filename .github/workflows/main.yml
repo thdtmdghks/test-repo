@@ -1,7 +1,6 @@
 on:
   issues:
-    types:
-      - [reopened, opened]
+    types: [reopened, opened]
       
 jobs:
   automate-project-columns:
