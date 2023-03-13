@@ -1,7 +1,7 @@
 on:
   issues:
     types:
-      - reopened
+      - opened
       
 jobs:
   automate-project-columns:
@@ -10,5 +10,5 @@ jobs:
       - uses: alex-page/github-project-automation-plus@v0.8.3
         with:
           project: test project
-          column: Done
+          column: in Progress
           repo-token: ${{ secrets.MY_TOKEN }}
