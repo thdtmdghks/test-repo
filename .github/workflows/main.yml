@@ -2,17 +2,12 @@ on:
   issues:
     types: [reopened, opened]
     
-concurrency:
-  group: update-projects-${{ github.event_name }}
-  cancel-in-progress: true
-
 jobs:
-  issues:
+  automate-project-columns:
     runs-on: ubuntu-latest
     steps:
-      # substitute RELEASE_VERSION for the latest version available in releases
-      - uses: PaperMC/update-projects-action@v0.2.0
+      - uses: alex-page/github-project-automation-plus@v0.8.3
         with:
-          github-token: ${{ secrets.MY_TOKEN }}
-          project-url: https://github.com/users/thdtmdghks/projects/1/views/1
-          column-field: In Progress
+          project: Backlog
+          column: In Progress
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
