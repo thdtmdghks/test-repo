@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: alex-page/github-project-automation-plus@v0.8.3
         with:
-          project-url: https://github.com/users/thdtmdghks/projects/1/views/1
+          project: https://github.com/users/thdtmdghks/projects/1/views/1
           column: In Progress
           repo-token: ${{ secrets.MY_TOKEN }}
