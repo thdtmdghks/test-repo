@@ -1,7 +1,7 @@
 on:
   issues:
     types:
-      - reopened
+      - [reopened, opened]
       
 jobs:
   automate-project-columns:
@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: alex-page/github-project-automation-plus@v0.8.3
         with:
-          project: https://github.com/users/thdtmdghks/projects/1/views/1
+          project: Backlog
           column: In Progress
           repo-token: ${{ secrets.MY_TOKEN }}
