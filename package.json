@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "test-repo",
+  "version": "1.0.0",
+  "description": "my-test-repo",
+  "main": "index.js",
+  "repository": "https://github.com/thdtmdghks/test-repo.git",
+  "author": "seunghwan song <ghksl4157@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "common",
+    "test1",
+    "test2"
+  ]
+}
