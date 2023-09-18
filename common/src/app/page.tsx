@@ -1,3 +1,5 @@
+'use client';
+import Counter from '@/components/Counter'
 import Image from 'next/image'
 
 export default function Home() {
@@ -37,6 +39,10 @@ export default function Home() {
           height={37}
           priority
         />
+        common!!
+      </div>
+      <div>
+        <Counter />
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
