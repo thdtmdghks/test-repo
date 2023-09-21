@@ -10,6 +10,8 @@
   "workspaces": [
     "common",
     "test1",
-    "test2"
+    "test2",
+    "test-vue",
+    "test-vue-2"
   ]
 }
