@@ -1,5 +1,10 @@
 {
   "name": "test-repo",
   "packageManager": "yarn@3.6.3",
-  "workspaces": ["packages/*"]
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
