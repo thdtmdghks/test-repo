@@ -1,6 +1,4 @@
 ---
-name: 🐞 Bug
-about: File a bug/issue
 title: '[//#]'
 labels: bug
 assignees: 'assign yourself'
