@@ -2,7 +2,7 @@
 name: 🐞 Bug
 about: File a bug/issue
 title: '[//#]'
-labels: PR
+labels: bug
 assignees: 'assign yourself'
 
 ---
