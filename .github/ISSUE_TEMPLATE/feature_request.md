@@ -3,7 +3,7 @@ name: Feature request
 about: Suggest an idea for this project
 title: ''
 labels: documentation, help wanted, question
-assignees: thdtmdghks
+assignees: assign yourself
 projects: Backlog/1
 
 ---
